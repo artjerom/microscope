@@ -1,0 +1,17 @@
+<template name="header">
+    <header class="navbar">
+        <div class="navbar-inner">
+            <a class="bth btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="ico-bar"></span>
+                <span class="ico-bar"></span>
+                <span class="ico-bar"></span>
+            </a>
+            <a href="{{pathFor 'postsList'}}" class="brand">Microscope</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    <li>{{> loginButtons }}</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</template>
